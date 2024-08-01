@@ -10,7 +10,7 @@ rl.question('Ingrese una frase: ', (frase) => {
         rl.question('Ingrese la nueva palabra: ', (nueva)=>{
             let nuevafrase = frase.replace(palabra, nueva)
             console.log(`la frase modificada es: ${nuevafrase}`);
-            process.exit
+            process.exit();
         })
     })
 })

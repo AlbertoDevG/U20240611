@@ -8,6 +8,6 @@ let rl = readline.createInterface(
 rl.question('¿Ingrese sus nombres? ', (nombres) => {
     rl.question('¿Ingrese sus apellidos? ', (apellidos) => {
         console.log(`Hola, ${nombres} ${apellidos}.`);
-        process.exit() 
+        process.exit();
     })  
 })

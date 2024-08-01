@@ -8,5 +8,5 @@ let rl = readline.createInterface(
 rl.question('¿Ingrese un texto?', (texto)=>{
 const caracteres = texto.length
     console.log(`El numero de caracteres de su texto es: ${caracteres}` );
-    process.exit
+    process.exit();
 })

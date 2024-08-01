@@ -8,5 +8,5 @@ const rl = readline.createInterface({
 rl.question('Ingrese el mensaje que desea invertir: ', (palabra) => {
     let invertir = palabra.split('').reverse().join('')
     console.log(`su mensaje invertido es: ${invertir}`);
-    process.exit()
+    process.exit();
 }) 

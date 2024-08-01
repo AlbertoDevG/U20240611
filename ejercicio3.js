@@ -8,5 +8,5 @@ let rl = readline.createInterface(
 rl.question('Ingrese un mensaje: ', (mensaje)=>{
     const mayusculas = mensaje.toUpperCase()
         console.log(`El mensaje en mayusculas es: ${mayusculas}` );
-        process.exit()
+        process.exit();
     })

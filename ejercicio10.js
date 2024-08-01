@@ -8,5 +8,5 @@ let rl = readline.createInterface(
 rl.question('Ingrese una palabra: ', (palabra) => {
     const mayuscula =  palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase();
         console.log(`La palabra capitalizada es: ${mayuscula}` );
-        process.exit()
+        process.exit();
     })

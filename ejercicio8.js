@@ -13,5 +13,5 @@ rl.question('Ingrese la palabra que desea verificar: ', (palabranormal) => {
     }else{
         console.log('La palabra: ', palabranormal, ' No es palíndromo');
     }
-    process.exit()
+    process.exit();
 })
